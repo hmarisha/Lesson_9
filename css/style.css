@@ -1,0 +1,250 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-family: lora;
+	font-size: 30px;
+	line-height: 1;
+	color:black;
+	background-color: rgb(252, 252, 252);
+}
+/*-------------------------------------*/
+
+
+
+.green-line {
+	width: 100%;
+	height: 350px;
+	background: url(../img/img-1.jpg) 0 100% / 100px auto repeat-x ,linear-gradient(153deg, rgba(255,255,255,1) 8%, rgba(10,215,240,1) 49%);
+}
+.road {
+	width: 100%;
+	height: 500px;
+	background: url(../img/img-2.jpg) 0 100% /  150px auto repeat-x, linear-gradient(180deg, rgba(194,192,192,1) 0%, rgba(126,129,129,1) 41%);
+}
+
+
+.wrapper {
+	padding-top: 200px;
+	width: 600px;
+	margin: 0 auto;
+	background: url(../img/Road.jpg);
+}
+.car {
+	position: relative;
+	margin-top: -550px;
+}
+.car:hover .headlight-4 {
+	box-shadow: 3px -3px 30px 10px white;
+}
+
+.car-1 {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 197px 39px 34px 96px / 26px 21px 19px 21px;
+	border-top: 10px solid rgb(230, 230, 230);
+	border-bottom: 20px solid rgb(170, 168, 168);
+	box-shadow: inset 0px 1px 15px 5px rgb(121, 119, 119);
+}
+.wheel-1 {
+	position: absolute;
+	top: 20%;
+	left: 95px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: black;
+	filter: drop-shadow(0px -5px 10px rgb(87, 85, 85));
+}
+.wheel-1 div {
+	position: absolute;
+	top: 15px; 
+	left: 15px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgb(180, 176, 176);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 66%);
+}
+.wheel-2 {
+	position: absolute;
+	top: 20%;
+	left: 460px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: black;
+	filter: drop-shadow(0px -5px 10px rgb(87, 85, 85));
+}
+.wheel-2 div {
+	position: absolute;
+	top: 15px; 
+	left: 15px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: rgb(180, 176, 176);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 66%);
+}
+.door-1 {
+	position: absolute;
+	top: -10px;
+	left: 302px;
+	width: 130px;
+	height: 85px;
+	border: 1px solid rgb(107, 107, 107);
+	border-top: none;
+}
+.mirror-1 {
+	position: absolute;
+	top: -16px;
+	left: 82px;
+	width: 20px;
+	height: 15px;
+	background-color: rgb(190, 190, 190);
+	border-radius: 30%;
+	box-shadow: inset 0px 0px 5px 2px rgb(145, 145, 145);
+}
+.mirror-2 {
+	position: absolute;
+	top: -9px;
+	left: 87px;
+	width: 15px;
+	height: 20px;
+	background-color: rgb(190, 190, 190);
+	border-radius: 30%;
+	box-shadow: inset 0px 0px 5px 2px rgb(145, 145, 145);
+}
+.door-2 {
+	position: absolute;
+	top: -55px;
+	left: 200px;
+	width: 103px;
+	height: 130px;
+	border: 1px solid rgb(107, 107, 107);
+}
+.handle {
+	position: absolute;
+	top: 0;
+	left: 253px;
+	width: 100px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid rgb(107, 107, 107);
+}
+.headlight-1 {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 10px;
+	height: 30px;
+	background-color: rgb(255, 102, 0);
+	border-radius: 50%;
+}
+.headlight-2 {
+	position: absolute;
+	top: 40px;
+	left: 25px;
+	width: 15px;
+	height: 6px;
+	background-color: rgb(255, 102, 0);
+	border-radius: 30%;
+}
+.headlight-3 {
+	position: absolute;
+	top: 30px;
+	left: 560px;
+	width: 15px;
+	height: 6px;
+	background-color: rgb(255, 102, 0);
+	border-radius: 30%;
+}
+.headlight-4 {
+	position: absolute;
+	top: 0px;
+	right: 1px;
+	width: 15px;
+	height: 40px;
+	border-radius: 50%;
+	border-right: 1px solid rgb(107, 107, 107);
+	box-shadow: 3px -3px 3px 1px white;
+}
+
+.roof {
+	position: absolute;
+	z-index: 1;
+	top: -54%;
+	left: 10%;
+	width: 450px;
+	border-bottom: 100px solid rgb(255, 255, 255);
+	border-left: 80px solid transparent;
+	border-right: 140px solid transparent;
+	border-radius: 10px 10px 10px 10px;
+	filter: drop-shadow(0px -2px 3px rgb(219, 218, 218));
+}
+.f {
+	position: absolute;
+	top: 9px;
+	left: 150px;
+	width: 77px;
+	height: 1px;
+	background-color: rgb(107, 107, 107);
+}
+
+.window-1 {
+	position: absolute;
+	top: 10px;
+	left: 168px;
+	width: 200px;
+	border-bottom: 100px solid rgb(68, 68, 68);
+	border-right: 140px solid transparent;
+	filter: drop-shadow(0px 0px 3px);
+}
+
+.window-2 {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	width: 140px;
+	border-bottom: 100px solid rgb(68, 68, 68);
+	border-left: 30px solid transparent;
+	filter: drop-shadow(0px 0px 3px);
+}
+.window-2 div {
+	position: absolute;
+	top: 0;
+	left: 13px;
+	width: 6px;
+	height: 50px;
+	background-color: white;
+}
